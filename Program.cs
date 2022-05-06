@@ -26,6 +26,10 @@ namespace Project2
                 Console.WriteLine(ex.Message);
                 Console.WriteLine("second number should not be zero.please try again");
             }
+            finally
+            {
+                Console.WriteLine("testing");
+            }
         }
     }
 }
